@@ -12,7 +12,7 @@ function setup() {
     createCanvas(360, 270);
 
     // load up your video
-    video = createCapture(VIDEO);
+    video = document.getElementById('video');
     video.size(width, height);
     video.hide(); // Hide the video element, and just show the canvas
     faceapi = ml5.faceApi(video, detectionOptions, modelReady);
