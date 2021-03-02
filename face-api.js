@@ -12,8 +12,9 @@ function setup() {
     createCanvas(360, 270);
 
     // load up your video
-    video = document.getElementById('video');
+    video = createCapture(VIDEO);
     video.size(width, height);
+    video.elt.setAttribute('playsinline', '');
     video.hide(); // Hide the video element, and just show the canvas
     faceapi = ml5.faceApi(video, detectionOptions, modelReady);
     textAlign(RIGHT);
