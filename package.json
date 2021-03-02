@@ -1,0 +1,22 @@
+{
+  "name": "ml5-posenet-faceapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindystefani29/ml5-posenet-faceapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindystefani29/ml5-posenet-faceapi/issues"
+  },
+  "homepage": "https://github.com/sindystefani29/ml5-posenet-faceapi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
